@@ -7,12 +7,123 @@
 		<meta name="viewport" content="width-device-width, initial-scale=1.0">
 		<title>MarcosDev Portfolio Website</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 		
 	</head>
 	
 	<body>
 		
+		<header>
+			
+			<div class="logo">
+				<i class="fa-solid fa-laptop-code"></i>
+			</div>
+			
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			
+			<nav clas="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+				</ul>
+			</nav>
+			
+			
+		</header>
+		
+		<!--Introduction-->
+		
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				Hi, I am <strong>Marcos Dominguez</strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro">
+				django dev
+			</p>
+			<img src="img/mug.jpg" alt="a picture of me smiling">
+		</section>
+		
+		<!--What I do-->
+		
+		<section class="my-services" id="services">
+			<h2 class="section__title section__title--what">What I do</h2>
+			<div clas="services">
+				<div class="service">
+					<h3>Back-end dev (python/django)</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					   Enim nulla aliquet porttitor lacus luctus..</p>
+				</div>  <!--/service-->
+				<div class="service">
+					<h3>Data Science</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					   Enim nulla aliquet porttitor lacus luctus.</p>
+				</div>  <!--/service-->
+				<div class="service">
+					<h3>Shitting my pants</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					   Enim nulla aliquet porttitor lacus luctus.</p>
+				</div>  <!--/service-->
+			</div>  <!--services-->
+			
+			<a href="work" class="btn">My work</a>
+		</section>
+		
+		<!--About Me-->
+		
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I am</h2>
+			<p clas="section__subtitle section__subtitle--about">Back-end developer in the SF bay area</p>
+			<div class="about-me__body">
+				<p></p>
+				<p></p>
+			</div>
+			
+			<img src"#" alt="me doing something cool">
+		</section>
+		
+		<!--My work-->
+		
+		<section class="my-work" id="work">
+			<h2 class="section__tile">My work</h2>
+			<p class="section__subtitle"></p>
+			
+			<div class="portfolio">
+				<!--Portfolio item 1-->
+				<a href="#" class="portfolio__item">
+					<img src="" alt="" class="portfolio__img">
+				</a>
+				<!--Portfolio item 2-->
+				<a href="#" class="portfolio__item">
+					<img src="" alt="" class="portfolio__img">
+				</a>
+				<!--Portfolio item 3-->
+				<a href="#" class="portfolio__item">
+					<img src="" alt="" class="portfolio__img">
+				</a>
+				<!--Portfolio item 4-->
+				<a href="#" class="portfolio__item">
+					<img src="" alt="" class="portfolio__img">
+				</a>
+			</div>
+		</section>
+		
+		<!--Footer-->
+		<footer>
+			<a href="mailto:md.ghsd@gmail.com" class="footer-link">md.ghsd@gmail.com</a>
+			<ul class="social-list">
+				<li class="social-list__item"><a class="social-list__link" href="https://www.google.com"></a>a</li>
+				<li class="social-list__item"><a class="social-list__link" href="https://www.google.com"></a>b</li>
+				<li class="social-list__item"><a class="social-list__link" href="https://www.google.com"></a>c</li>
+				<li class="social-list__item"><a class="social-list__link" href="https://www.google.com"></a>d</li>
+			</ul>
+		</footer>
 		
 	</body>
 	
