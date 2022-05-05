@@ -477,9 +477,11 @@ header {
     justify-content: center;
 }
 
-.portfolio-item-individual img {
+.portfolio-item-individual-img {
     display: flex;
     justify-content: center;
+    margin: auto;
+    padding: auto;
 }
 
 .portfolio-item-individual p {
