@@ -466,9 +466,20 @@ header {
 /* Individual portfolio item styles */
 
 .portfolio-item-individual {
+    color: var(--clr-dark);
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.portfolio-item-individual-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-item-individual img {
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio-item-individual p {
