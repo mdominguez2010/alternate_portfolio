@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevMarcos Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Wallstreetbets Sentiment<strong>Analysis for Stock Prices</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A Natual Language Processing Approach, Pt. 2</p>
+            <img src="img/portfolio-04.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>The modeling peice. We dive into model development, optimization, and model evaluation</p>
+            <img src="img/portfolio-04-details.png" class="portfolio-item-individual-img" alt="">
+            <p>I’m going to take this information and improve future models. I performed minimal feature engineering, which I believe could make a huge difference. Also, I want to improve the robustness of sentiment scores. I need more sources of sentiment to capture more information floating around in the market.</p>
+            <p>Click "Go to Article" below for details.</p>
+
+            <div class="portfolio-item-individual-btn">
+                <a href="https://medium.com/nerd-for-tech/wallstreetbets-sentiment-analysis-part-2-predicting-the-stock-market-895422c172a7" class="btn" target="_blank">Go to article</a>
+            </div>
+        </div>        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            
+            <a href="mailto:md.ghsd@gmail.com" class="footer__link">md.ghsd@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://github.com/mdominguez2010">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://medium.com/@data-marcos">
+                        <i class="fas fa-blog"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://twitter.com/mdcruz2010">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
